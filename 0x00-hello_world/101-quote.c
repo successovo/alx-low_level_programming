@@ -1,16 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
-*main - Entry point
-*
-*Return: Always 0 (Success)
+*main-Entrypoint 
+*Return : Always 1
 */
-int main(void)
-{	int i = 2015;
-	int n = 10;
-	int t = 19;
 
-	printf("and that piece of art is useful%c %c", '"', '-');
-	printf("Dora Korpar, %d%c%d%c%d\n", i, '-', n, '-', t);
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
