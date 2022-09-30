@@ -1,0 +1,1 @@
+my static lib task
