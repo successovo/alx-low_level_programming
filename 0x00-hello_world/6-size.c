@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point for my parameter
- * printed: output the size of various types
+ * printf: output the size of various types
  * 
  * Return: 0
  */
