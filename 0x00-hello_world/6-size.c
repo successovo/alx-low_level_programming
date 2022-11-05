@@ -3,7 +3,7 @@
  * main - Entry point for my parameter
  * printf: output the size of various types
  * 
- * Return: 0
+ * Return: Always 0 on success
  */
 int main(void)
 {
