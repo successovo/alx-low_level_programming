@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point for my parameter
+ * printf: outputs a string
  *
  * Return: Always 0 (Success)
  */

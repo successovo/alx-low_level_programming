@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point
+ * @puts - prints out a string
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
